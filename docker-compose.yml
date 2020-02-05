@@ -1,0 +1,15 @@
+# Docker compose used for development environment only.
+
+version: '3.2'
+
+services:
+
+  images:
+    image: jimmydockerhub/boxer-ratings-images:latest
+    container_name: images
+    restart: always
+    build:
+      context: .
+      dockerfile: ./docker/Dockerfile
+    ports:
+      - "80:80"
