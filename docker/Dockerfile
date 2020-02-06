@@ -7,6 +7,6 @@ LABEL Description = "A repository containing all of the boxer thumbnail images u
 WORKDIR /var/www/boxer-ratings-images/
 COPY . /var/www/boxer-ratings-images/
 
-COPY docker/nginx/default /etc/nginx/sites-available/default
+COPY docker/nginx/default.conf /etc/nginx/conf.d/default.conf
 
 EXPOSE 80
