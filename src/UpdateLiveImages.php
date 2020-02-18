@@ -11,7 +11,7 @@ use Aws\S3\Transfer;
 use Aws\Exception\AwsException;
 
 $client = new S3Client([
-    'profile' => 'default',
+    'profile' => 'images',
     'version' => 'latest',
     'region' => 'us-west-2'
 ]);
