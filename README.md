@@ -17,4 +17,18 @@ $ docker push jimmydockerhub/boxer-ratings-images:latest
 
 ## Production
 
-TODO: Probably just bang them in an S3 bucket.
+The images are served from this S3 bucket:
+
+```https://s3.console.aws.amazon.com/s3/buckets/images.boxeratings.com/?region=us-west-2&tab=overview```
+
+## Deployment
+
+To push the images in the /public directory to S3, the following AWS credentials are required:
+
+```text
+[default]
+aws_access_key_id = <<KEY_ID>>
+aws_secret_access_key = <<ACCESS_KEY>>
+```
+
+These setting must be stored in **~/.aws/credentials**
