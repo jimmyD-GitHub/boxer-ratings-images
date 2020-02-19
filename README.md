@@ -32,3 +32,9 @@ aws_secret_access_key = <<ACCESS_KEY>>
 ```
 
 These setting must be stored in **~/.aws/credentials**
+
+Once that is in place simmply do:
+
+```shell script
+$ composer deploy
+```
