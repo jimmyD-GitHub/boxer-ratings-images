@@ -1,10 +1,10 @@
 {
     "require": {
-        "aws/aws-sdk-php": "^3.133",
-        "psr/log": "^1.1",
-        "doctrine/cache": "^1.10",
-        "aws/aws-php-sns-message-validator": "^1.6",
-        "laminas/laminas-httphandlerrunner": "^1.1"
+        "aws/aws-sdk-php": "^3.257.4",
+        "psr/log": "^1.1.4",
+        "doctrine/cache": "^1.13.0",
+        "aws/aws-php-sns-message-validator": "^1.8.0",
+        "laminas/laminas-httphandlerrunner": "^2.5.0"
     }
     ,
     "require-dev": {
